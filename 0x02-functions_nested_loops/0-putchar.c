@@ -1,13 +1,16 @@
 #include "main.h"
 
 /**
- * main - Check description
- * Description: It prints the word Holberton, followed by a new line.
- * Return: 0.
+ * main - prints Putchar
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-        _putchar('_');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -16,5 +19,7 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
+
